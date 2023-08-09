@@ -1,0 +1,57 @@
+.zero{
+    display: flex;
+}
+.zerodiv{
+    background-color: gray;
+    width: 20%;
+    margin:10%;
+}
+.one{
+    flex: 2;
+    padding: 1%;
+    background: linear-gradient(to left, green, yellow);
+}
+.two{
+    flex: 2;
+    padding: 1%;
+    background: linear-gradient(to right,red, yellow);
+}
+.three{
+    flex: 2;
+    list-style-type:decimal;
+    padding: 1%;
+    background: linear-gradient(to left,blue,gray);
+}
+#two{
+    color: red;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: Algerian;
+}
+
+h1{
+    text-align: center;
+    font-family: fantasy;
+    ;
+}
+h3{
+    text-align: center;
+    font-family: Perpetua Titling MT;
+    color: white;
+}
+
+p{
+    font-family:  Arial, sans-serif;
+}
+h4{
+    text-align: center;
+    font-family: Script MT Bold;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(to left, black,white)
+}
